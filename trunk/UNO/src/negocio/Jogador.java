@@ -37,4 +37,9 @@ public abstract class Jogador {
 	public Carta jogar(Carta topo) {
 		return null;
 	}
+
+	public boolean getUno() {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }
