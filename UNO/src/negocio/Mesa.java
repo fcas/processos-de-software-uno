@@ -22,7 +22,7 @@ public class Mesa {
 			topo = new ArrayList<Carta>();
 			topo.add(aux.get(aux.size()-1));
 			aux.remove(aux.size()-1);
-			//voltarAsPretas
+			restaurarCuringas(aux);
 			baralho.addAll(aux);
 			Collections.shuffle(baralho);
 		}
